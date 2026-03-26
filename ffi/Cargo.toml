@@ -1,0 +1,9 @@
+[package]
+name = "constellazig-ffi"
+version = "0.1.0"
+edition = "2021"
+description = "Rust FFI bindings for the constellazig Constellation library"
+build = "build.rs"
+
+[lib]
+name = "constellazig"

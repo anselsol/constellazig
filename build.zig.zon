@@ -1,0 +1,12 @@
+.{
+    .name = .constellazig,
+    .version = "0.1.0",
+    .fingerprint = 0x8e40210ae3540acc, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
